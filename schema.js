@@ -36,7 +36,7 @@ const schema = buildSchema(`
     landuage: String
     email: String
     stack: Stack
-    teachingAssist: [TeachingAssist]
+    teachingAssist: [TeachingAssistInput]
   }
 
   input TeachingAssistInput {
